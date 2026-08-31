@@ -1,0 +1,63 @@
+## Ignoruj pliki generowane przez Visual Studio / MSBuild (C++ / CLR)
+
+# Katalogi wynikowe kompilacji
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Pliki użytkownika Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Katalog ustawień VS
+.vs/
+
+# Pliki pośrednie i wynikowe kompilacji C/C++
+*.obj
+*.o
+*.pch
+*.ipch
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.log
+*.res
+*.tmp
+
+# Pliki wykonywalne i biblioteki
+*.exe
+*.dll
+*.lib
+*.exp
+*.so
+*.out
+
+# Cache / bazy IntelliSense
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.aps
+
+# Pakiety NuGet
+packages/
+*.nupkg
+
+# Foldery tymczasowe/robocze
+Pomocnik.*/
